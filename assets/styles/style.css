@@ -1,0 +1,94 @@
+/*====== RESESTS ======= */
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 14px;
+}
+button,
+a{
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  outline: none;
+  border: none;
+  color: inherit;
+}
+li{
+  
+  list-style-type: none;
+  /*
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  */
+}
+/*====== VRAIBLES ======*/
+:root{
+  --clr-green: hsl(75, 94%, 57%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey700: hsl(0, 0%, 20%);
+  --clr-grey800: hsl(0, 0%, 12%);
+  --clr-grey900: hsl(0, 0%, 8%);
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  background-color: var(--clr-grey900);
+  color: var(--clr-white);
+  
+}
+
+
+/*======LAYOUT======*/
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*===== STYLES =====*/
+.card{
+  text-align: center;
+  background-color: var(--clr-grey800);
+  width: 70%;
+  max-width: 400px;
+  padding: 2rem;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+.pfp{
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+.user-info h1{
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 6px;
+  font-weight: 400;
+}
+.user-info .location{
+  color: var(--clr-green);
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.bio{
+  margin-bottom: 1rem;
+  font-size: 16px;
+  color: hsl(0, 0%, 70%);
+/*  color: var(--clr-grey700); */
+}
+.link-btn{
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  background-color: var(--clr-grey700);
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
