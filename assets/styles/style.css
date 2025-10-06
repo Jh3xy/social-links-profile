@@ -54,7 +54,7 @@ body{
   text-align: center;
   background-color: var(--clr-grey800);
   width: 70%;
-  max-width: 400px;
+  max-width: 320px;
   padding: 2rem;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
@@ -69,7 +69,7 @@ body{
 .user-info h1{
   color: hsl(0, 0%, 95%);
   margin-bottom: 6px;
-  font-weight: 400;
+  font-weight: 600;
 }
 .user-info .location{
   color: var(--clr-green);
@@ -78,10 +78,11 @@ body{
   margin-bottom: 30px;
 }
 .bio{
-  margin-bottom: 1rem;
+--clr-grey700: hsl(0, 0%, 70%);
+  
+  margin-bottom: 2rem;
   font-size: 16px;
-  color: hsl(0, 0%, 70%);
-/*  color: var(--clr-grey700); */
+  color: var(--clr-grey700);
 }
 .link-btn{
   padding: 1rem;
@@ -91,4 +92,17 @@ body{
   width: 100%;
   font-size: 1.2rem;
   font-weight: 600;
+  transition: background-color 0.4s ease;
 }
+
+
+/*======== HOVER STATES ==========*/
+
+.link-btn:hover{
+  color: var(--clr-grey900);
+  background-color: var(--clr-green);
+  cursor: pointer;
+}
+
+
+
